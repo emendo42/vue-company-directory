@@ -2,7 +2,7 @@
   "name": "vue-company-directory",
   "private": true,
   "version": "0.0.0",
-  "type": "module", 
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -16,6 +16,7 @@
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
     "@rushstack/eslint-patch": "^1.1.4",
     "@vitejs/plugin-vue": "^3.0.0",
     "autoprefixer": "^10.4.8",
