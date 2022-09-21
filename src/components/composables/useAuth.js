@@ -1,4 +1,6 @@
 import { ref } from 'vue'
+import router from '@/router'
+
 
 const dbUsers = [
   {
@@ -36,6 +38,7 @@ export const useAuth = () => {
   const logout = () => {
     isAuthenticated.value = false
     user.value = {}
+    router.push({ name: 'Home' })
   }
   return { isAuthenticated, user, login, logout }
 }
