@@ -1,6 +1,8 @@
 <script setup>
   import useAPI from '@/composables/useAPI'
   import MainCardsSingle from '@/components/MainCardsSingle.vue'
+
+  const { employees } = useAPI()
 </script>
 
 <template>

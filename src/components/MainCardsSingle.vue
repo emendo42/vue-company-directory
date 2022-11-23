@@ -3,7 +3,7 @@
   import { faker } from '@faker-js/faker'
 
   import useAPI from '@/composables/useAPI'
-  const {getDepartment} = useAPI()
+  const { getDepartment } = useAPI()
 
   const selectCard = () => {
     console.log(`${props.employee.name} selected`)
